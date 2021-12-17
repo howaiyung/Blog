@@ -1,0 +1,39 @@
+Until I figure out the issue with SquareSpace or figure out how to do, this will be my primary notetaking place.
+
+
+As of December 17, 2021, the Shift+F10 of getting to the command prompt has been disabled by Microsoft.
+The Shift+F4 has been disabled as well to bypass the Wifi request and automatically goes to the local account creation window.
+
+This is one I have used successfully in order to bypass the Windows 11 forced account creation:
+
+1. When you first boot up the laptop and see the initial screen, locate the disability option on the bottom right hand of the screen. It'll look like a little person.
+2. A pop up window will appear, it'll display the option , select the option for 'More options'
+.
+.
+.
+3. Once you have the hidden accessibility window open, press the 'Tab' key 6 times and press enter. It'll open up a alleviated command prompt hidden.
+   If that is not successful, Alt+Tab until the accessibility window is selected, then press Ctrl+w to close the Window. Repeat steps 1-3.
+4. Proceed the setup process until you reach the setup window called 'Let's connect you to a network'. 
+5. Press Alt+Tab until you highlighted the command prompt window.
+6. Type in the following command:
+	taskkill /F /IM oobenetworkconnectionflow.exe
+   Now if you are confused on what point you are with this command, Alt+Tab to switch windows. 
+   There will be 3 mini windows that pop up, just look at the command prompt and check out what has been typed so far.
+   The text is small but hopefully you can make out what part of the command you are at.
+
+7. Press enter to execute the command. The setup window should have the screen automatically change from a list of wi-fi networks, to a 'No ethernet' option in the 'Let's connect you to a network' setup window.
+8. An button should appear at the bottom which says 'Create a local account'. Click on the button and you are on your way!
+
+
+Now there other ways of disabling your Wi-Fi:
+
+1. Checking the BIOs and see if there is a 'Disable Wi-Fi' option in the menus.
+2. Using a Fn+Function key to put the laptop into Airplane mode.
+
+The problem is that BIOs and Function keys are all different for desktops, laptops and tablets. It'll be time consuming to figure out how to disable Wi-Fi on different models.
+
+There is a option as well, courtesy of a Reddit post, which suggest inputting the following when they ask for account:
+	Account: a@a.com
+	Password: Random password
+It should bring up a prompt that says 'Account is locked', and the button to create a local account should appear, but I haven't tested that yet.
+
