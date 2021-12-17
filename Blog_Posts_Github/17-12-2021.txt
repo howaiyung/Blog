@@ -37,3 +37,21 @@ There is a option as well, courtesy of a Reddit post, which suggest inputting th
 	Password: Random password
 It should bring up a prompt that says 'Account is locked', and the button to create a local account should appear, but I haven't tested that yet.
 
+
+
+----- Part 2 -----
+
+Learned to hookup the local folder to github from this website:
+
+https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/adding-an-existing-project-to-github-using-the-command-line
+
+'Adding a project to GitHub without GitHub CLI' section.
+
+Following the instructions made it easy to link my local folder to my github account. It's not a SSH folder, but it's enough security for this Blog.
+
+
+
+
+
+
+
